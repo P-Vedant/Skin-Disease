@@ -1,0 +1,17 @@
+pre.contrast_strength:5
+pre.image_scale:128
+pre.train_batch_size:32
+pre.test_batch_size:32
+pre.shuffle_level:2000
+pre.classes:actinic_keratosis,basal_cell_carcinoma,dermatofibroma,melanoma,nevus,pigmented_benign,keratosis,seborrhic_keratosis,squamous_cell_carcinoma,vascular_lesion
+mod.conv_filters:72,36,18,9
+mod.conv_sizes:32,16,8,4
+mod.conv_stridesX:1,1,1,1
+mod.conv_stridesY:1,1,1,1
+mod.conv_LReLU_negative_slopes:0.1,0.1,0.1,0.1
+mod.conv_pool_sizes:2,2,2,2
+mod.dense_sizes:128,128,9
+mod.dense_activation_methods:relu,relu,softmax
+mod.drop_out:0.3
+run.upload_folder:Uploads
+run.threshold:0.3
