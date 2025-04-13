@@ -1,5 +1,3 @@
-# Skin-Disease
-AI
 # Skin-Disease-Detection-AI
 
 ## Project Info
